@@ -1,0 +1,46 @@
+{
+  "foods":[
+      {
+        "id":"1",
+          "name":"pizza",
+          "price":"500",
+          "image":"https://freesvg.org/storage/img/thumb/pizza2-1447860.png"
+          
+      },
+      {
+        "id":"2",
+        "name":"Burger",
+        "price":"100",
+        "image":"https://freesvg.org/storage/img/thumb/Gerald-G-Fast-Food-Lunch-Dinner-FF-Menu-1.png"
+        
+    },
+    {
+      "id":"3",
+      "name":"French Fries",
+      "price":"10",
+      "image":"https://freesvg.org/storage/img/thumb/1575003216fastfood-burgerfries.png"
+      
+  },
+{
+  "id":"4",
+  "name":"vada",
+  "price":"1",
+  "image":"https://freesvg.org/storage/img/thumb/Gerald-G-Fast-Food-Breakfast-FF-Menu-28.png"
+  
+},
+{
+  "id":"5",
+  "name":"dosa",
+  "price":"40",
+  "image":"https://freesvg.org/storage/img/thumb/Gerald-G-Fast-Food-Breakfast-FF-Menu-10.png"
+  
+},
+{
+  "id":"6",
+  "name":"Ice Cream",
+  "price":"10",
+  "image":"https://freesvg.org/storage/img/thumb/Gerald-G-Fast-Food-Lunch-Dinner-FF-Menu-3.png"
+  
+}
+  ]
+}
