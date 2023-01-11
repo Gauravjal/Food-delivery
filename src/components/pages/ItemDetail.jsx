@@ -20,8 +20,8 @@ function ItemDetail({ handleClick }) {
     })
     return (<>
        <Header/>
-      <div style={{paddingBottom:'300px'}} className="container text-center">
-        {imgurl && <img src={imgurl} alt=""></img>}
+      <div style={{paddingBottom:'300px'}} className="container">
+        {imgurl && <img width="500px" src={require(`${imgurl}`)} alt=""></img>}
         <h3>{name}</h3>
         
         <h3>{price}</h3>

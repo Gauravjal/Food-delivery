@@ -19,11 +19,15 @@ function Foods({ handleClick }) {
     <Header/>
     <div style={{paddingBottom:'100px'}} className="row">
     {foods && foods.map((food,index)=>(
-    <div key={food.id} style={{textAlign:'center',alginContent:'center',marginTop:'4px'}}className="col-md-3 card" >
+    <div key={food.id} style={{textAlign:'center',alginContent:'center',marginTop:'4px'}}
+    className="col-md-3 card" 
+    >
         <Link to={`/itemDetail/${food.name}/${food.price}/${food.id}`}>
+            {/* <h4>require("{food.image}")</h4> */}
         {/* <img src={require(food.image)} alt=""></img> */}
-        <img src={food.image} alt=""></img>
+        <img src={require(`${food.image}`)} alt=""></img>
         </Link>
+        {/* <img src={require('./c7.png')} alt=""></img> */}
         <h4>{food.name}</h4>
         <h4>${food.price}</h4>
         {/* <button className="stylish_button btn" onClick={() => {handleClick(food)}}>Add to cart</button> */}
