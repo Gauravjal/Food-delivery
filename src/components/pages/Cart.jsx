@@ -75,7 +75,7 @@ function Cart({ cart, setCart, handleChange }){
     return (<>
     <Header/>
     <br/>
-    <div className="container mx-auto text-center w-full h-full"><img style={{alignContents:'center',alignItems:'center'}} className="image-center" src={require("./img/cart.png")}
+    <div className="container mx-auto text-center w-full h-full"><img style={{alignContents:'center',alignItems:'center'}} className="mx-auto" src={require("./img/cart.png")}
  width="50%" height="50%" alt=""></img>
  <Link to="/foods" className="btn stylish_button">See foods</Link>
  </div>
